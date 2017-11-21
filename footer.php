@@ -3,7 +3,7 @@
 Plugin Name: footer
 Plugin URI: https://www.advancedcustomfields.com/
 Description: Footer en react
-Version: 1.0.1
+Version: 1.0.2
 Author: Melanie Lecomte
 */
 
@@ -18,8 +18,8 @@ function wpshout_react_footer_enqueue_scripts() {
 	//wp_enqueue_script( 'react', plugin_dir_url( __FILE__ ) . 'react/build/react.min.js' );
 	//wp_enqueue_script( 'react-dom', plugin_dir_url( __FILE__ ) . 'react/build/react-dom.min.js' );
 	wp_enqueue_script( 'babel', 'https://npmcdn.com/babel-core@5.8.38/browser.min.js', '', null, false );
-	wp_enqueue_script( 'wpshout-react-footer', plugin_dir_url( __FILE__ ) . 'react/shopping-list/static/js/main.c4ddab5e.js' );
-	wp_enqueue_style( 'wpshout-react-footer', plugin_dir_url( __FILE__ ) . 'react/shopping-list/static/css/main.279176be.css' );
+	wp_enqueue_script( 'wpshout-react-footer', plugin_dir_url( __FILE__ ) . 'react/build/static/js/main.ea38242b.js' );
+	wp_enqueue_style( 'wpshout-react-footer', plugin_dir_url( __FILE__ ) . 'react/build/static/css/main.279176be.css' );
 }
 
 // Add "babel" type to footer script
