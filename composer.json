@@ -1,0 +1,16 @@
+{
+  "name": "melacrea/footer",
+  "description": "WordPress Plugin description",
+  "keywords": ["wordpress", "plugin", "roots"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mélanie Lecomte"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.4"
+  }
+}
