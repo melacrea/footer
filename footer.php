@@ -3,13 +3,13 @@
 Plugin Name: footer
 Plugin URI: https://www.advancedcustomfields.com/
 Description: Footer en react
-Version: 1.0.0
+Version: 1.0.1
 Author: Melanie Lecomte
 */
 
 add_shortcode( 'wpshout_react_footer', 'wpshout_react_show_footer' );
 function wpshout_react_show_footer() {
-	return '<div id="root"></div>';
+	return '<div id="footer"></div>';
 }
 
 add_action( 'wp_enqueue_scripts', 'wpshout_react_footer_enqueue_scripts' );
